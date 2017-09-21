@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>中医药健康保健方案制定</title>
+    <link media="all" type="text/css" rel="stylesheet" href="https://dn-qinco.qbox.me/humancss/0.13/css.min.css">
+    <link media="all" type="text/css" rel="stylesheet" href="https://obycohhl2.qnssl.com/font-awesome-4.4/css/font-awesome.min.css">
+
+    <style type="text/css">
+        li {
+            margin:10px 10px;
+            padding:10px 10px;
+        }
+    </style>
+</head>
+<body class='bg-light'>
+
+    <div class='alert alert-thick'>
+        <div class='alert alert-thick bg-white'>
+
+            <script type="text/javascript"> 
+                var data = [{method1:'情志调节'},{method2:'饮食调养'}];
+            </script>
+
+            <div class='box'>
+                <div class='col col-3'>
+                    <ul class="inline-block">
+                        <li class="zhi"><a class="btn-md btnl-green">气虚质</a></li>
+                        <li class="zhi"><a class="btn-md btnl-green">阳虚质</a></li>
+                        <li class="zhi"><a class="btn-md btnl-green">阴虚质</a></li>
+                        <li class="zhi"><a class="btn-md btnl-green">痰湿质</a></li>
+                        <li class="zhi"><a class="btn-md btnl-green">湿热质</a></li>
+                        <li class="zhi"><a class="btn-md btnl-green">血瘀质</a></li>
+                        <li class="zhi"><a class="btn-md btnl-green">特禀质</a></li>
+                    </ul>
+                </div>
+                <div class='col col-3'>
+                    <div class='box none' id='methods'>
+                        <ul class="inline-block">
+                            <script type="text/javascript">
+                                for (var i = data.length - 1; i >= 0; i--) {
+                                    document.write(data[i]);
+                                }
+                            </script>
+                            <li class="method_li" id="method1"><a class="btn-md btnl-earth">情志调摄</a></li>
+                            <li class="method_li" id="method2"><a class="btn-md btnl-earth">饮食调养</a></li>
+                            <li class="method_li" id="method3"><a class="btn-md btnl-earth">起居调护</a></li>
+                            <li class="method_li" id="method4"><a class="btn-md btnl-earth">运动保健</a></li>
+                            <li class="method_li" id="method5"><a class="btn-md btnl-earth">经穴保健</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class='col col-3'>
+                    <div class='box none' id=''>
+                        <ul class="inline-block">
+                                
+                                <li class="" id=""><a class="btn-md btnl-orange">情志调摄</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class='col col-3'>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+
+    <script src="https://obycohhl2.qnssl.com/jquery/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            var data = [{method1:'情志调节'},{method2:'饮食调养'}];
+            $(".zhi").click(function(){
+                $(this).append("<b><i class='fa fa-arrow-right ml2em c-azure'></i></b>");
+                $(this).siblings().children().children().hide();
+                $("#methods").show();
+            });
+
+            $(".method_li").click(function(){
+
+
+
+                $.post(
+                    '/submitaction',
+                    {'action':$(this).id},
+                    function(data)
+                    {
+                        $('.items').show();
+                        // $('')
+                    },
+                    'json'
+                );
+            });
+
+        });
+    </script>
+</body>
+</html>
