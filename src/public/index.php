@@ -144,13 +144,34 @@ $app->post('/submit', function (Request $request, Response $response) {
         }
         elseif($c==5)
         {
-            // if($i==1)
-            //     $response='×';
-            // if($i==1)
-            //     $response='×';
-            // if($i==1)
-            //     $response='×';
-            // else $response='right';
+            if($i==1)
+                $response='×补气健脾，痰湿质适用';
+            if($i==2)
+                $response='×滋补阴液，阴虚质适用';
+            if($i==3)
+                $response='×温补阳气，阳虚质适用';
+            if($i==4)
+                $response='×行气解郁，气虚质适用';
+            if($i==5)
+                $response='×温补肾阳，阳虚质适用';
+            if($i==6)
+                $response='×清利湿热，湿热质适用';
+            if($i==7)
+                $response='×滋阴补肾，阴虚质适用';
+            if($i==8)
+                $response='×疏肝解郁，气郁质适用';
+            if($i==9)
+                $response='×健脾祛湿，痰湿质适用';
+            if($i==10)
+                $response='×培补元气，特禀质适用';
+            if($i==11)
+                $response='×活血化瘀，血瘀质适用';
+            if($i==13)
+                $response='×培补元气，特禀质适用';
+            if($i==14)
+                $response='×温肾助阳，阳虚质适用';
+            else
+                $response='right';
 
         }
 
@@ -223,7 +244,30 @@ $app->post('/submit', function (Request $request, Response $response) {
         elseif($c==5)
         {
 
-            // else $response='right';
+            if($i==1)
+                $response='×补气健脾，痰湿质适用';
+            if($i==2)
+                $response='×滋补阴液，阴虚质适用';
+            if($i==4)
+                $response='×行气解郁，气虚质适用';
+            if($i==6)
+                $response='×清利湿热，湿热质适用';
+            if($i==7)
+                $response='×滋阴补肾，阴虚质适用';
+            if($i==8)
+                $response='×疏肝解郁，气郁质适用';
+            if($i==9)
+                $response='×健脾祛湿，痰湿质适用';
+            if($i==10)
+                $response='×培补元气，特禀质适用';
+            if($i==11)
+                $response='×活血化瘀，血瘀质适用';
+            if($i==12)
+                $response='×益气健脾，气虚质适用';
+            if($i==13)
+                $response='×培补元气，特禀质适用';
+            else
+                $response='right';
 
         }
     }
@@ -294,7 +338,32 @@ $app->post('/submit', function (Request $request, Response $response) {
         elseif($c==5)
         {
 
-            // else $response='right';
+            if($i==1)
+                $response='×补气健脾，痰湿质适用';
+            if($i==3)
+                $response='×温补阳气，阳虚质适用';
+            if($i==4)
+                $response='×行气解郁，气虚质适用';
+            if($i==5)
+                $response='×温补肾阳，阳虚质适用';
+            if($i==6)
+                $response='×清利湿热，湿热质适用';
+            if($i==8)
+                $response='×疏肝解郁，气郁质适用';
+            if($i==9)
+                $response='×健脾祛湿，痰湿质适用';
+            if($i==10)
+                $response='×培补元气，特禀质适用';
+            if($i==11)
+                $response='×活血化瘀，血瘀质适用';
+            if($i==12)
+                $response='×益气健脾，气虚质适用';
+            if($i==13)
+                $response='×培补元气，特禀质适用';
+            if($i==14)
+                $response='×温肾助阳，阳虚质适用';
+            else
+                $response='right';
 
         }
     }
@@ -365,7 +434,32 @@ $app->post('/submit', function (Request $request, Response $response) {
         elseif($c==5)
         {
 
-            // else $response='right';
+            if($i==2)
+                $response='×滋补阴液，阴虚质适用';
+            if($i==3)
+                $response='×温补阳气，阳虚质适用';
+            if($i==4)
+                $response='×行气解郁，气虚质适用';
+            if($i==5)
+                $response='×温补肾阳，阳虚质适用';
+            if($i==6)
+                $response='×清利湿热，湿热质适用';
+            if($i==7)
+                $response='×滋阴补肾，阴虚质适用';
+            if($i==8)
+                $response='×疏肝解郁，气郁质适用';
+            if($i==10)
+                $response='×培补元气，特禀质适用';
+            if($i==11)
+                $response='×活血化瘀，血瘀质适用';
+            if($i==12)
+                $response='×益气健脾，气虚质适用';
+            if($i==13)
+                $response='×培补元气，特禀质适用';
+            if($i==14)
+                $response='×温肾助阳，阳虚质适用';
+            else
+                $response='right';
 
         }
     }
@@ -436,7 +530,30 @@ $app->post('/submit', function (Request $request, Response $response) {
         elseif($c==5)
         {
 
-            // else $response='right';
+            if($i==1)
+                $response='×补气健脾，痰湿质适用';
+            if($i==2)
+                $response='×滋补阴液，阴虚质适用';
+            if($i==3)
+                $response='×温补阳气，阳虚质适用';
+            if($i==5)
+                $response='×温补肾阳，阳虚质适用';
+            if($i==7)
+                $response='×滋阴补肾，阴虚质适用';
+            if($i==9)
+                $response='×健脾祛湿，痰湿质适用';
+            if($i==10)
+                $response='×培补元气，特禀质适用';
+            if($i==11)
+                $response='×活血化瘀，血瘀质适用';
+            if($i==12)
+                $response='×益气健脾，气虚质适用';
+            if($i==13)
+                $response='×培补元气，特禀质适用';
+            if($i==14)
+                $response='×温肾助阳，阳虚质适用';
+            else
+                $response='right';
 
         }
     }
@@ -501,7 +618,34 @@ $app->post('/submit', function (Request $request, Response $response) {
         elseif($c==5)
         {
 
-            // else $response='right';
+            if($i==1)
+                $response='×补气健脾，痰湿质适用';
+            if($i==2)
+                $response='×滋补阴液，阴虚质适用';
+            if($i==3)
+                $response='×温补阳气，阳虚质适用';
+            if($i==4)
+                $response='×行气解郁，气虚质适用';
+            if($i==5)
+                $response='×温补肾阳，阳虚质适用';
+            if($i==6)
+                $response='×清利湿热，湿热质适用';
+            if($i==7)
+                $response='×滋阴补肾，阴虚质适用';
+            if($i==8)
+                $response='×疏肝解郁，气郁质适用';
+            if($i==9)
+                $response='×健脾祛湿，痰湿质适用';
+            if($i==10)
+                $response='×培补元气，特禀质适用';
+            if($i==12)
+                $response='×益气健脾，气虚质适用';
+            if($i==13)
+                $response='×培补元气，特禀质适用';
+            if($i==14)
+                $response='×温肾助阳，阳虚质适用';
+            else
+                $response='right';
 
         }
     }
@@ -562,7 +706,32 @@ $app->post('/submit', function (Request $request, Response $response) {
         elseif($c==5)
         {
 
-            // else $response='right';
+            if($i==1)
+                $response='×补气健脾，痰湿质适用';
+            if($i==2)
+                $response='×滋补阴液，阴虚质适用';
+            if($i==3)
+                $response='×温补阳气，阳虚质适用';
+            if($i==4)
+                $response='×行气解郁，气虚质适用';
+            if($i==5)
+                $response='×温补肾阳，阳虚质适用';
+            if($i==6)
+                $response='×清利湿热，湿热质适用';
+            if($i==7)
+                $response='×滋阴补肾，阴虚质适用';
+            if($i==8)
+                $response='×疏肝解郁，气郁质适用';
+            if($i==9)
+                $response='×健脾祛湿，痰湿质适用';
+            if($i==11)
+                $response='×活血化瘀，血瘀质适用';
+            if($i==12)
+                $response='×益气健脾，气虚质适用';
+            if($i==14)
+                $response='×温肾助阳，阳虚质适用';
+            else
+                $response='right';
 
         }
     }
@@ -628,7 +797,32 @@ $app->post('/submit', function (Request $request, Response $response) {
         elseif($c==5)
         {
 
-            // else $response='right';
+            if($i==1)
+                $response='×补气健脾，痰湿质适用';
+            if($i==2)
+                $response='×滋补阴液，阴虚质适用';
+            if($i==3)
+                $response='×温补阳气，阳虚质适用';
+            if($i==4)
+                $response='×行气解郁，气虚质适用';
+            if($i==5)
+                $response='×温补肾阳，阳虚质适用';
+            if($i==6)
+                $response='×清利湿热，湿热质适用';
+            if($i==7)
+                $response='×滋阴补肾，阴虚质适用';
+            if($i==8)
+                $response='×疏肝解郁，气郁质适用';
+            if($i==9)
+                $response='×健脾祛湿，痰湿质适用';
+            if($i==11)
+                $response='×活血化瘀，血瘀质适用';
+            if($i==12)
+                $response='×益气健脾，气虚质适用';
+            if($i==14)
+                $response='×温肾助阳，阳虚质适用';
+            else
+                $response='right';
 
         }
     }
