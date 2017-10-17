@@ -19,21 +19,21 @@
     <div class='alert alert-thick' id='root'>
         <div class='alert alert-thick bg-white'>
             <div class='box'>
-                <div class='col col-2'>
+                <div class='col-sm col-sm-2'>
                         <zhi-comp @select=selectZhi :active=activeZhi></zhi-comp>
                 </div>
-                <div class='col col-2'>
-                    <div class='box none' id='col2'>
+                <div class='col-sm col-sm-2'>
+                    <div class='box none' id='col-2'>
                         <cate-comp @select=selectCate :active=activeCate></cate-comp>
                     </div>
                 </div>
-                <div class='col col-4'>
-                    <div class='box none' id='col3'>
+                <div class='col-sm col-sm-4'>
+                    <div class='box none' id='col-3'>
                         <item-comp @select=selectItem :active=activeItem></item-comp>
                     </div>
                 </div>
-                <div class='col col-4'>
-                    <div class='box none' id='col4'>
+                <div class='col-sm col-sm-4'>
+                    <div class='box none' id='col-4'>
                         <div v-if='result=="right"' class='alert alert-thin bd bd-3px bd-solid bd-green c-green'>
                             <h2>
                                 <i class="fa fa-check"></i>
@@ -126,7 +126,7 @@
 
                     self.zhi = zhi;
 
-                    $('#col2').show();
+                    $('#col-2').show();
 
 
                 },
@@ -152,7 +152,7 @@
                         'json'
                     );
 
-                    $('#col3').show();
+                    $('#col-3').show();
 
 
                 },
@@ -177,7 +177,7 @@
                         'json'
                     );
 
-                    $('#col4').show();
+                    $('#col-4').show();
 
                 },
 
